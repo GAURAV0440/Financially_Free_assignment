@@ -120,3 +120,4 @@ Example: “In latest quarter, Maruti leads YoY in 4W.”
 
 # Video
 3–5 min walkthrough (Home → Overview → Manufacturers → CSV upload).
+loom: https://www.loom.com/share/45bebf465f8f417d8e1760355ba4d3f3?sid=a939a693-4cf8-4894-8e7d-d987b027d30e
