@@ -1,0 +1,34 @@
+# --- Python / venv / caches ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Env & secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Data (keep samples, ignore real data) ---
+data/processed/*
+data/raw/*
+!data/raw/mock_quarterly.csv
+!data/raw/upload_template.csv
+!data/raw/test_vahan_small.csv
+!data/raw/test_vahan_medium.csv
+*.parquet
+
+# --- Selenium/webdrivers/logs (optional) ---
+drivers/
+logs/
